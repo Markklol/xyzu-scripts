@@ -12,19 +12,11 @@ export default defineNuxtConfig({
   ],
   devtools: { enabled: false },
   css: ['~/assets/css/variables.css'],
-  runtimeConfig: {
-    serverUrl: 'http://localhost:3030/api/v1',
-  },
-  compatibilityDate: '2025-07-15',
   eslint: {
     config: {},
   },
   icon: {
     mode: 'css',
     cssLayer: 'base',
-  },
-  image: {
-    format: ['webp'],
-    domains: ['https://cdn.noitatnemucod.net', 'https://cdn.myanimelist.net'],
   },
 });
